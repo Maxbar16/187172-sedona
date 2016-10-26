@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+          <div class="container">
+            <nav class="main-navigation">
+              <ul>
+                <li>
+                  <a href="#">Информация</a>
+                </li>
+                <li>
+                  <a href="#">Фото и видео</a>
+                </li>
+                  <a href="#">Карта штата</a>
+                </li>
+                <li>
+                  <a href="#">Гостиницы</a>
+                </li>
+            </ul>
+            </nav>
+            <div class="index-logo">
+            <img src="img/index-logo.png" width="368" height="204" alt="sedona">
+            </div>
+         </div>
+      </header>
+
+      <div class="filter">
+       <form action="https://echo.htmlacademy.ru">
+         <p><h2>Инфраструктура:</h2></p>
+          <label><input type="checkbox" checked>Бассейн</label>
+          <label><input type="checkbox">Парковка</label>
+          <label><input type="checkbox">WI-FI</label>
+         <p><h2>Тип жилья:</h2></p>
+          <label><input type="checkbox" checked>Гостиница</label>
+          <label><input type="checkbox" checked>Мотель</label>
+          <label><input type="checkbox" checked>Апартаменты</label>
+         <p><h2>Стоимость в сутки (р):</h2></p>
+        <table border="1">
+         <tr>
+          <td>от 0</td>
+          <td>до 3000</td>
+         </tr>
+        </table>
+        <input type="range" min="0" max="3000" step="1" value="50">
+        <button type="submit" value="Показать">
+       </form>
+      </div>
+
+
+      <footer class="main-footer">
+        <div class="container">
+          <section class="footer-contacts">
+            <h3>#Visitsedona</h3>
+          </section>
+          <section class="footer-social">
+            <p>Давайте дружить!</p>
+            <a class="social-btn social-btn-twitter" href="#">Твиттер</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+          </section>
+          <section class="footer-copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </section>
+        </div>
+      </footer>
+    </body>
+  </html>
