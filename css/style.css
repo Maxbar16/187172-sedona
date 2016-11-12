@@ -94,6 +94,8 @@ width: 137px;
 height: 70px;
 padding-top:0px;
 padding-bottom: -14px;
+padding-left:50px;
+padding-right:50px;
 
 }
 
@@ -127,7 +129,7 @@ float: left;
 }
 
 .housing-food-souvenirs li {
-  width: 400px;
+  width: 300px;
   float: left;
 
 
