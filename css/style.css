@@ -4,6 +4,7 @@ lione-height:26px ;
 font-color:#333333;
 font-weight: normal;
 font-family:PT Sans;
+text-align: center;
 }
 
 .main-header {
@@ -41,6 +42,7 @@ body {
   min-height: 2762px;
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -54,13 +56,14 @@ body {
   clear: both;
 }
 .main-header {
-  margin-bottom: 76px;
+   min-height: 56px;
 }
 
 .container {
 width: 1200px;
-padding: 0 40px;
+/*padding: 0 40px;*/
 margin: 0 auto;
+padding: 0 auto;
 }
 
 .main-navigation {
@@ -68,7 +71,9 @@ display: inline-block;
 vertical-align: top;
 text-align: center;
 width: 1200px;
-height: 56px;
+min-height: 56px;
+padding-left: 6%; /*73px*/
+padding-right: 6%;
 
 }
 
@@ -76,95 +81,132 @@ height: 56px;
 display: inline-block;
 vertical-align: top;
 text-align: center;
+width: 20%;
 
 }
 
 .main-navigation li:first-child {
-  margin-left: 72px;
-  margin-right: 147px;
+  text-align: left;
 }
 
 .main-navigation li:last-child {
-  margin-right: 72px;
-  margin-left: 162px;
+text-align: right;
 }
 
-.main-navigation li .index-logo {
-width: 137px;
-height: 70px;
-padding-top:0px;
-padding-bottom: -14px;
-padding-left:50px;
-padding-right:50px;
 
-}
 
 .main-image {
 width: 1200px;
-height: 510px;
+height: 508px;
 margin-right: auto;
 margin-left: auto;
-margin-bottom: 62px;
+margin-bottom: 63px;
 }
 
-.first-reason {
-width: 400px;
-height: 256px;
-
-margin-bottom: 60px;
+.first-reason .white-text {
+width: 33%;
 float: left;
+min-height: 256px;
+background-color: #81b3d2;
 }
 
-.image {
-width: 800px;
-height: 256px;
-margin-bottom: 60px;
+.first-reason .image {
+width: 66%;
 float: left;
+min-height: 256px;
 }
 
-  .housing-food-souvenirs {
-
-    margin-bottom: 86px;
-    min-height: 181px;
+.housing-food-souvenirs {
+  min-height: 330px;
 }
 
 .housing-food-souvenirs li {
-  width: 300px;
+  width: 33%;
   float: left;
-
-
-}
-.housing-food-souvenirs li:first-child {
-  margin-left: 73px;
-  margin-right: 134px;
 }
 
-.housing-food-souvenirs li:last-child{
-margin-right: 64px;
-margin-left: 122px;
-}
-
-.second-reason {
-
-  margin-bottom: 50px;
-}
 .second-reason .image {
-  width: 800px;
-  height: 256px;
+  width: 66%;
+  min-height: 256px;
+  float: left;
 }
 .second-reason .white-text {
-  width: 400px;
-  height: 256px;
+  width: 33%;
+  min-height: 256px;
+  float: left;
+  background-color: #81b3d2;
 }
 .three-reasons {
-  margin-bottom: 57px;
-  width: 400px;
-
   min-height: 256px;
-  margin-right: 10px;
-
+  background-color: #eeeeee;
+}
+.three-reasons li {
+  width: 33%;
+  float:left;
 }
 
+.index-content {
+width: 568px;
+height: 481px;
+margin-bottom: 78px;
+margin-left: 316px;
+margin-right: 316px;
+
+}
+.index-content .btn {
+  height: 86px;
+  width:100%;
+  background-color: #766357;
+}
+
+.search-form {
+padding: 55px;
+width: 458px;
+height: 285px;
+background-color: #ffffff;
+}
+.search-form input {
+width: 346px;
+height: 38px;
+margin-bottom: 29px;
+
+}
+/*. {
+  width: 114px;
+}*/
+
+
+.search-form button {
+  width: 100%;
+  background-color: #81b3d2;
+  height: 58px;
+}
+
+.map {
+  width: 100%;
+  min-height: 593px;
+  }
+
+.main-footer {
+  margin-top: 78px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-contacts{
+  width: 33%;
+  float: left;
+  min-height: 120px;
+}
+.footer-social{
+  width: 33%;
+  float: left;
+  min-height: 120px;
+}
+.footer-copyright{
+  width: 33%;
+  float: right;
+  min-height: 120px;
+}
 
 
 
@@ -177,7 +219,7 @@ margin-left: 122px;
 /*======================================
  Системное оформление - не изменять
 =======================================*/
-
+/*
 body {
   padding: 3px;
 }

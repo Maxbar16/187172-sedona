@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-          <div class="container clearfix">
+          <div class="container">
             <nav class="main-navigation">
               <ul>
                 <li>
@@ -17,11 +17,6 @@
                   <a href="#">Фото и видео</a>
                 </li>
                 <li>
-                 <div class="index-logo">
-                  <img src="img/logo.png" width="100" height="50" alt="sedona">
-                 </div>
-                </li>
-                <li>
                   <a href="#">Карта штата</a>
                 </li>
                 <li>
@@ -29,7 +24,9 @@
                 </li>
             </ul>
             </nav>
-
+            <!--<div class="index-logo">
+              <img src="img/logo.png" width="100" height="50" alt="sedona">
+            </div>-->
          </div>
       </header>
 
@@ -40,14 +37,16 @@
               <h1>Седона-небольшой городок в Аризоне,<br>заслуживающий большего!</h1>
               <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
 
-        <div class="first-reason clearfix">
+      <div class="first-reason clearfix">
+        <div class="white-text">
             <div class="white-text-main"><h3>Настоящий<br>Городок</h3></div>
             <div class="white-text-number"<p>-№1-</p></div>
-            <div class="white-text"<p>Седона-не аттракцион для туристов,<br>там течёт своя жизнь</p></div>
+            <div class="text"<p>Седона-не аттракцион для туристов,<br>там течёт своя жизнь</p></div>
         </div>
         <div class="image">
-            <img src="img/photo2.png" alt="real-town"></div>
+            <img src="img/photo2.png" alt="real-town">
         </div>
+      </div>
 
         <div class="housing-food-souvenirs clearfix">
             <ul>
@@ -68,26 +67,35 @@
               </li>
             </ul>
         </div>
-        <div class="second-reason">
+
+        <div class="second-reason clearfix">
            <div class="image">
              <img src="img/photo3" alt="Devil's Bridge">
            </div>
            <div class="white-text">
              <div class="white-text-main"><h3>Там есть<br>мост дьявола</h3></div>
              <div class="white-text-number"><p>-№2-</p></div>
-             <div class="white-text"><p>Да,по нему можно пройти! Если конечно<br>вы осмелитесь</p></div>
+             <div class="text"><p>Да,по нему можно пройти! Если конечно<br>вы осмелитесь</p></div>
            </div>
         </div>
-        <div class="three-reasons">
-            <h3>Небольшая<br>площадь</h3>
-            <p>-№3-</p>
-            <p>Все достопримечательности<br>находятся очень близко</p>
+        <div class="three-reasons clearfix">
+          <ul>
+            <li>
+              <h3>Небольшая<br>площадь</h3>
+              <p>-№3-</p>
+              <p>Все достопримечательности<br>находятся очень близко</p>
+           </li>
+           <li>
             <h3>Красивая<br>дорога</h3>
             <p>-№4-</p>
             <p>Ехать в Седону из Лас-Вегаса совсем<br>не скучно!</p>
+           </li>
+           <li>
             <h3>Мало<br>туристов</h3>
             <p>-№5-</p>
             <p>Большинство едит в Гранд Каньон и<br>толпится там</p>
+           </li>
+          </ul>
         </div>
 
         <div class="question">
@@ -103,9 +111,9 @@
           <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
             <label><input type="text" name="arrival-date" value="24 апреля 2016" placeholder="">Дата заезда</label>
             <label><input type="text" name="leaving-date" value="4 июля 2016" placeholder="">Дата выезда</label>
-            <label><input type="text" name="adults" value="2" placeholder="">Взрослые</label>
+           <label><input type="text" name="adults" value="2" placeholder="">Взрослые</label>
             <label><input type="text" name="children" value="0" placeholder="">Дети</label>
-            <button type="submit">Найти</button>
+           <button type="submit">Найти</button>
           </form>
         </div>
         <div class="map" href="#">
@@ -113,12 +121,12 @@
         </div>
 
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           <h3>#Visitsedona</h3>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-twitter" href="#">Твиттер</a>
+          <a class="social-btn social-btn-twitter" href="img/t.png">Твиттер</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
         </section>
