@@ -29,16 +29,21 @@
          </div>
       </header>
 
-      <div class="filter">
+      <div class="filter clearfix">
+        <div class="filter-one">
        <form action="https://echo.htmlacademy.ru">
           <h2>Инфраструктура:</h2>
           <label><input type="checkbox" checked>Бассейн</label>
           <label><input type="checkbox">Парковка</label>
           <label><input type="checkbox">WI-FI</label>
+        </div>
+        <div class="filter-two">
           <h2>Тип жилья:</h2>
           <label><input type="checkbox" checked>Гостиница</label>
           <label><input type="checkbox" checked>Мотель</label>
           <label><input type="checkbox" checked>Апартаменты</label>
+        </div>
+        <div class="filter-three">
           <h2>Стоимость в сутки (р):</h2>
           <table border="1">
             <tr>
@@ -49,12 +54,16 @@
           <input type="range" min="0" max="3000" step="1" value="50">
           <button type="submit" value="Показать">
        </form>
+     </div>
       </div>
 
 
       <main class="container">
+            <div class="container-one clearfix">
+            <div class="found">
               <h1>Найдено:3</h1>
               <p>Сортировка:</p>
+            </div>
             <nav class="breadcrumb">
                 <ul>
                   <li>
@@ -70,40 +79,59 @@
                 <a href="#stars"></a>
                 <a href="#stars"></a>
             </nav>
+          </div>
 
            <div>
-            <div class="housing">
-              <img src="img/amara.jpg" alt="Amara resort & spa">
-              <h2>Amara resort & spa</h2>
+            <div class="housing clearfix">
+              <div class="image">
+                <img src="img/amara.jpg" alt="Amara resort & spa">
+              </div>
+              <div class="text"><h2>Amara resort & spa</h2>
               <p>Гостиница от 350 Р.</p>
               <a class="btn" href="#">Подробнее</a>
               <a href="http://placehold.it/150x100">Забронировать</a>
+            </div>
+              <div class="stars-rating">
               <img src="img/4stars.png" alt="stars">
              <div class="rating">
                <p><span class="note">Рейтинг:8,5</span></p>
              </div>
+             </div>
           </div>
-            <div class="housing">
+
+            <div class="housing clearfix">
+              <div class="image">
              <img src="img/desert.jpg" alt="Desert quail inn">
+           </div>
+           <div class="text">
              <h2>Desert quail inn</h2>
              <p>Гостиница от 350 Р.</p>
              <a class="btn" href="#">Подробнее</a>
              <a href="http://placehold.it/150x100">Забронировать</a>
+           </div>
+           <div class="stars-rating">
              <img src="img/2stars.png" alt="stars">
              <div class="rating">
                <p><span class="note">Рейтинг:8,9</span></p>
              </div>
+           </div>
             </div>
 
-           <div class="housing">
+           <div class="housing clearfix">
+             <div class="image">
              <img src="img/villas.jpg" alt="Villas at poco diablo">
+             </div>
+             <div class="text">
              <h2>Villas at poco diablo</h2>
              <p>Гостиница от 350 Р.</p>
              <a class="btn" href="#">Подробнее</a>
              <a href="http://placehold.it/150x100">Забронировать</a>
+             </div>
+             <div class="stars-rating">
              <img src="img/3stars.png" alt="stars">
              <div class="rating">
                <p><span class="note">Рейтинг:9,2</span></p>
+             </div>
              </div>
            </div>
          </div>

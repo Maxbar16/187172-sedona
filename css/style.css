@@ -5,6 +5,8 @@ font-color:#333333;
 font-weight: normal;
 font-family:PT Sans;
 text-align: center;
+width: 1280px;
+magin: 0 auto;
 }
 
 .main-header {
@@ -208,18 +210,88 @@ margin-bottom: 29px;
   min-height: 120px;
 }
 
+/*2я страница*/
+
+.container-one{
+  min-height: 86px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.container .found{
+  width: 241px;
+  float: left;
+}
+.breadcrumb ul{
+  width: 400px;
+  float: left;
+}
+.breadcrumb a{
+  width: 241px;
+  float: right;
+}
+/*.housing {
+width: 100%;
+padding-left: 6%;
+padding-right: 6%;
+min-height: 152px;
+margin: 0 auto;
+
+}*/
 
 
+.filter{
+  min-height: 217px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.filter .filter-one{
+  width: 241px;
+  float: left;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.filter .filter-two{
+  width: 400px;
+  float: left;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.filter .filter-three{
+  width: 241px;
+  float: right;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
 
+.housing{
+  min-height: 152px;
+  padding-left: 6%;
+  padding-right: 6%;
 
-
-
-
-
+}
+.housing .image{
+width: 241px;
+float: left;
+margin-left: 30px;
+margin-top: 31px;
+margin-bottom: 31px;
+}
+.housing .text{
+width: 400px;
+float: left;
+margin-top: 31px;
+margin-bottom: 31px;
+}
+.housing .stars-rating{
+  width: 241px;
+  float: right;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  }
 /*======================================
  Системное оформление - не изменять
 =======================================*/
-/*
+
 body {
   padding: 3px;
 }
