@@ -7,7 +7,9 @@
     <link href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <div class="box-shadow">
+  <body> <!--style="overflow-x:hidden;"--> <!--откючая горизонт скролл-->
+<div class="box-shadow">
     <header class="main-header">
           <div class="container">
             <nav class="main-navigation">
@@ -26,23 +28,29 @@
                 </li>
             </ul>
             </nav>
-            <div class="index-logo">
-              <img src="img/logo.png" width="100" height="50" alt="sedona">
+          <div class="index-logo">
+              <a href="file:///C:/Users/Максим/Desktop/HTML%20академия/187172-sedona/index.html"><img src="img/logo.png" alt="логотип" width="138" height="70"></a>
             </div>
          </div>
       </header>
+    </div>
 
+<div class="box-shadow">
+ <main class="main-container"
+    <div class="main-image-text">
         <div class="main-image">
         <img src="img/bg.jpg">
+      </div>
+        <div class="main-text">
+          <img src="img/group-text.png" alt="CЕДОНА">
         </div>
-        <div class="main-image-text">
-          <img src="img/group-text.png">
-        </div>
+        <div class="main-dekor"><img src="" alt=""></div>
 
-            <div class="index-title">
+        <div class="index-title">
               <h1>Седона-небольшой городок в Аризоне,<br>заслуживающий большего!</h1>
               <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
-            </div>
+        </div>
+    </div>
 
       <div class="first-reason clearfix">
         <div class="white-text">
@@ -112,36 +120,72 @@
          </div>
        </div>
 
-       <div class="index-content">
+      <div class="index-content">
+        <div class="index-container">
           <button class="btn" type="button">Поиск гостиницы в Седоне</button>
-          <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-          <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-            <label><input type="text" name="arrival-date" value="24 апреля 2016" placeholder="">Дата заезда</label>
-            <label><input type="text" name="leaving-date" value="4 июля 2016" placeholder="">Дата выезда</label>
-           <label><input type="text" name="adults" value="2" placeholder="">Взрослые</label>
-            <label><input type="text" name="children" value="0" placeholder="">Дети</label>
-           <button type="submit">Найти</button>
-          </form>
-        </div>
-      <div class="map" href="#">
-          <img src="img/map.png" alt="map">
+          <!--<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>-->
         </div>
 
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+          <div class="date-item">
+              <label><p>Дата заезда:</p></label>
+              <input type="text" name="arrival-date" value="24 апреля 2016" placeholder="" required>   <!--required-добавим валидацию для формы-->
+              <span class="calendar"></span>
+              <label><p>Дата выезда:</p></label>
+              <input type="text" name="leaving-date" value="4 июля 2016" placeholder="" required>
+              <span class="calendar-item"></span>
+         </div>
+
+              <div class="number">
+              <label><p>Взрослые:</p></label>
+              <button class="minus"> </button>
+              <input type="text" value="2" required>
+              <button class="plus"> </button>               <!--Можно и так <input type="button" class="plus" value="">-->
+              </div>
+
+              <div class="number-second">
+              <label><p>Дети:</p></label>
+              <button class="minus"> </button>
+              <input type="text" value="0" required>
+              <button class="plus"> </button>
+        </div>
+        <div class="meta-btn">
+          <button type="submit">Найти</button>
+          </div>
+          </form>
+      </div>
+
+          <div class="map">
+          <!--<img src="img/map.png" alt="map">-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74085.35967561298!2d-111.82853466043353!3d34.85267766080967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1483882969729" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+   </main>
+</div>
+
+<!--<span class="sprite sprite-f"></span>
+<span class="sprite sprite-t"></span>
+<span class="sprite sprite-youtube"></span>-->
+<div class="box-shadow">
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="footer-contacts">
           <h3>#Visitsedona</h3>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-twitter" href="img/t.png">Твиттер</a>
+          <a class="social-btn social-btn-twitter" href="#">Твиттер</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
         </section>
         <section class="footer-copyright">
-          <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          <p>WEBSITE BY</p>
+          <a class="btn" href="https://htmlacademy.ru"></a>
         </section>
       </div>
     </footer>
-  </body>
+  </div>
+
+    <script src="js/scripts.js"></script>
+
+ </body>
+ </div>
 </html>
