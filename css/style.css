@@ -7,10 +7,8 @@ font-weight: normal;
 font-size:14px;
 text-transform: uppercase;
 text-align: center;
-/*display: block;*/
-/*background: #ffffff;*/
 margin:0 auto;
-background-color: #f2f2f2; /*серый фон*/
+background-color: #f2f2f2;
 }
 
 h1 {
@@ -37,7 +35,6 @@ font-color:#ffffff;
 font-color:#ffffff;
 }
 
-/*______________*/
 .box-shadow{
   /*position: relative;*/
     margin: 0 auto;
@@ -74,8 +71,8 @@ margin: 0 auto;
   color: #000000;
   text-decoration: none;
   display: block;
-  /*padding: 17px 16px;*/
 }
+
 .main-navigation ul {
   margin: 0;
   padding: 0;
@@ -124,11 +121,8 @@ margin: 0 auto;
     left:50%;
     top:0;
     z-index: 1;
-    margin-left: -69px; /*вроде от центральной оси,хотя не факт*/
+    margin-left: -69px;
   }
-
-/*______________________________________*/
-
 
 .main-container {
   width: 1200px;
@@ -148,13 +142,12 @@ position: relative;
 position: absolute;
 width: 488px;
 height: 355px;
-left:50%; /*подбирал визуально*/
-margin-left: -244px; /*счетаем от центральной оси*/
+left:50%;
+margin-left: -244px;
 top:133px;
 margin-top: 0;
 display: block;
 padding: 75px 0;
-/*background: url("img/bg.jpg") no-repeat center top;*/
 }
 .main-dekor:before{
   content: "";
@@ -174,9 +167,9 @@ height: 102px;
 padding-top: 60px;
 padding-bottom: 60px;
 text-align: center;
-/*margin-left: 352px;*/
 margin: 0 auto;
 }
+
 .index-title h1{
   margin-bottom: 38px;
 }
@@ -184,8 +177,8 @@ margin: 0 auto;
 .first-reason{
   width: 1200px;
   margin: 0 auto;
-  /*min-height: 257px;*/
 }
+
 .first-reason .white-text {
 display: block;
 width: 400px;
@@ -194,27 +187,26 @@ min-height: 256px;
 background-color: #81b3d2;
 color: #ffffff;
 }
+
 .first-reason .white-text h3{
 margin-top: 57px;
 }
+
 .first-reason .image {
 width: 800px;
 float: left;
 min-height: 256px;
-/*margin-bottom: 56px;*/
 }
 
 .housing-food-souvenirs {
   min-height: 186px;
   width: 1200px;
   margin: 0 auto;
-  /*margin-bottom: 85px;
-  margin-top: 33px;*/
   display: block;
   background-color: #ffffff;
   padding-top: 60px;
   padding-bottom: 80px;
-  margin-top: -5px; /*подгон что бы заделать щель*/
+  margin-top: -5px;
 }
 
 .housing-food-souvenirs ul{
@@ -222,24 +214,23 @@ min-height: 256px;
   margin: 0;
   padding: 0;
 }
+
 .housing-food-souvenirs li {
   width: 33%;
   float: left;
   padding-top: 5px;
-  /*padding-bottom: 5px;*/
     }
+
 .housing-food-souvenirs li:last-child{
   padding-top: 0px;
 }
+
 .housing-food-souvenirs li:first-child{
   padding-top: 4px;
 }
-.housing-food-souvenirs img{
-  }
+
 .housing-food-souvenirs h3 {
     margin:30px 0;
-}
-.housing-food-souvenirs p{
 }
 
 .second-reason{
@@ -247,11 +238,10 @@ min-height: 256px;
   height: 256px;
   margin: 0 auto;
   margin-bottom:0px;
-
   }
+
 .second-reason .image {
   width: 800px;
-  /*min-height: 256px;*/
   float: left;
   }
 
@@ -262,11 +252,11 @@ min-height: 256px;
   background-color: #81b3d2;
   color: #ffffff;
   display: block;
-        }
+  }
 
-  .second-reason .white-text h3{
-      margin-top: 57px;
-      }
+  .second-reason .white-text h3 {
+  margin-top: 57px;
+  }
 
 .three-reasons {
   width: 1200px;
@@ -274,61 +264,56 @@ min-height: 256px;
   height: 256px;
   background-color: #eeeeee;
   display: block;
-
 }
+
 .three-reasons li {
   width: 33%;
   display: inline-block;
   /*float:left;*/
-
 }
+
 .three-reasons ul {
   list-style: none;
   margin: 0;
   padding: 0;
-    display: inline-block;
-    width: 100%;
-    height: 256px;
+  display: inline-block;
+  width: 100%;
+  height: 256px;
 }
-.three-reasons h3{
+
+.three-reasons h3 {
   margin-top: 50px;
 }
 
-.question{
+.question {
   display: block;
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-
 }
 
-.question .dark-text{
+.question .dark-text {
 display: inline-block;
 width: 567px;
 vertical-align: top;
 text-align: center;
 margin: 0 auto;
-/*padding-top: 58px;
-/*padding-bottom: 140px;*/
-/*padding-left: 312px;
-padding-right: 312px;*/
 }
 
-.dark-text h2{
+.dark-text h2 {
   display: inline-block;
   font-size: 30px;
   margin-top: 55px;
   margin-bottom: 30px;
   }
-.dark-text p{
+
+.dark-text p {
   display: inline-block;
   font-size: 14px;
   margin-bottom: 49px;
-    }
+  }
 
 .map {
-  /*width: 1200px;
-  height: 593px;*/
   position: relative;
   margin: 0 auto;
   margin-bottom: -5px;
@@ -350,9 +335,7 @@ padding-right: 312px;*/
 
 .index-content .btn {
 display: inline-block;
-/*vertical-align: middle;*/
 text-align: center;
-/*min-height: 27px;*/
 width:568px;
 padding-top: 32px;
 padding-bottom: 32px;
@@ -363,12 +346,10 @@ font-family: "PT Sans", sans-serif;
 font-size: 21px;
 line-height:26px;
 font-weight: bold;
-/*margin: 0 auto;*/
 }
 
 .search-form {
   width: 460px;
-  /*min-height: 286px;*/
   padding: 55px;
   z-index: 5;
   display: inline-block;
@@ -390,9 +371,9 @@ font-weight: bold;
 .date-item {
 display: block;
 }
-.date-item p{
+/*.date-item p{
   display: inline-block;
-}
+}*/
 .date-item input{
 display: inline-block;
 width:  292px;
@@ -456,9 +437,7 @@ background-position: -15px -15px;
   .number{
   display: inline-block;
   }
-.number p{
-  display: inline-block;
-  }
+
 .number input{
   display: inline-block;
   width: 55px;
@@ -476,7 +455,7 @@ background-position: -15px -15px;
   margin-right: 53px;
   padding-top: 1px;
   padding-bottom: 1px;
-  margin-top: 7px;        /*подгон*/
+  margin-top: 7px;
 }
 .number input:hover{
   background: #ebebeb;
@@ -533,9 +512,6 @@ background-position: -15px -15px;
 display: inline-block;
 }
 
-.number-second p{
-display: inline-block;
-}
 .number-second input
 {
   display: inline-block;
@@ -553,7 +529,7 @@ display: inline-block;
   margin-left: 14px;
   padding-top: 1px;
   padding-bottom: 1px;
-  margin-top: 7px;      /*подгон*/
+  margin-top: 7px;
 }
 .number-second input:hover{
   background: #ebebeb;
@@ -581,7 +557,7 @@ display: inline-block;
   background-position: -45px 2px;
 }
 .number-second .minus:active{
-    background-position: -87px 2px;
+  background-position: -87px 2px;
 }
 
 .number-second .plus {
@@ -613,7 +589,6 @@ display: inline-block;
   width: 458px;
   padding: 18px 0;
   text-align: center;
-  /*height: 58px;*/
   background-color: #81b3d2;
   color: #ffffff;
   text-transform: uppercase;
@@ -622,7 +597,6 @@ display: inline-block;
   line-height:26px;
   font-weight: bold;
   margin-top: 54px;
-  /*margin-bottom: 55px;*/
       }
 
 .search-form .meta-btn button:hover{
@@ -644,6 +618,7 @@ display: inline-block;
   top:2750px;
   background: rgba(255,255,255, 0.9);
    }
+
 .main-footer .container{
   width: 1056px;
   display:block;
@@ -658,9 +633,8 @@ display: inline-block;
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  /*padding-top: 17px;
-  padding-bottom: 17px;*/
   }
+
 .footer-social{
   width: 29.3%;
   /*float: left;*/
@@ -669,23 +643,20 @@ display: inline-block;
   text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
-  margin:0 58px; /*подгон*/
+  margin:0 58px;
     }
 
 .footer-social a {
  margin: 0;
- /*margin-bottom: 36px;*/
 }
 
 .social-btn {
   display: inline-block;
-
   width: 46px;
   height: 48px;
   margin: 0 3px;
-  background: #81b3d2 /*url("../img/sprite2.png") no-repeat*/;
+  background: #81b3d2 ;
   position: relative;
-
   font-size: 0;
   vertical-align: top;
   text-decoration: none;
@@ -703,7 +674,7 @@ display: inline-block;
   position: absolute;
   top:50%;
   left:50%;
-  transform: translate(-50%,-50%);            /*вместо  использ margin центруем*/
+  transform: translate(-50%,-50%);
   background-image: url("../img/sprite2.png");
   background-repeat: no-repeat;
 }
@@ -724,9 +695,7 @@ display: inline-block;
     }
 
 .footer-copyright{
-  width: 29.3%;
-  /*margin-right: 134px; /*подгонял визуально*/
-  /*float: right;*/
+    width: 29.3%;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -736,16 +705,16 @@ display: inline-block;
         }
 
 .footer-copyright p{
-/*padding-top: 4px;*/
     text-align: center;
     font-size: 14px;
     line-height: 26px;
     padding-right: 50px;
     }
+
 .footer-copyright a{
-  text-decoration: none;
-  color:#333333;
-  position: absolute;
+      text-decoration: none;
+      color:#333333;
+      position: absolute;
       right: -30px;
       bottom: -10px;
       width: 113px;
@@ -755,37 +724,36 @@ display: inline-block;
       background-repeat: no-repeat;
       background-position: -15px -15px;
 }
+
 .footer-copyright a:hover {
   width: 113px;
   height: 39px;
   background-position: -158px -15px;
 }
+
 .footer-copyright a:active{
   width: 113px;
   height: 39px;
   background-position: -301px -15px;
 }
 
-
 /*2я страница_______________________________________________________________
 ----------------------------------------------------------------------------*/
 
 .inner-page{
-/*  min-height: 933px;*/
   margin: 0 auto;
   padding: 0;
   }
 
 .filter{
-  /*min-height: 217px;*/
   padding-left: 6%;
   padding-right: 6%;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
   background: url(../img/filter-background.jpg) no-repeat center top;
   margin: 0 auto;
-  /*margin-bottom: -10px;*/
-}
+  }
+
 .filter-infrastructure{
   width: 241px;
   display: inline-block;
@@ -826,11 +794,10 @@ display: inline-block;
     position: relative;
     cursor: pointer;
     padding-left: 30px;
-    /*padding-bottom: 25px;*/
-    }
+      }
+
 .checkbox:hover{}
-.checkbox:disabled{
-  }
+.checkbox:disabled{}
 
 .checkbox input[type="checkbox"]{
   display: none;           /*Спрячем стандартный чекбокс*/
@@ -857,13 +824,9 @@ display: inline-block;
   width: 25px;
   height: 20px;
   transform: translate(-50%, -50%);
-  /*background-image: url(../img/sprite6.png);
-  background-repeat: no-repeat;
-  background-position: -169px -16px;*/
   background-image: url(../img/galochka.png);
 }
 
-/*---------------*/
 .filter-property{
   width: 288px;
   display: inline-block;
@@ -914,7 +877,6 @@ display: inline-block;
   font-weight: bold;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
-
 }
 
 .filter-range-title {
@@ -1007,28 +969,24 @@ display: inline-block;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
-  background: transparent;  /*задаётся прозрачность!!!!!!!*/
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
 }
+
 .btn-transparent:hover {
   color: #000000;
   background: #ffffff;
 }
 /*-----------------------------------------------------------------*/
 
-
 .container-one{
-  /*min-height: 86px;*/
   width: 1056px;
   display: block;
   padding-left: 6%;
   padding-right: 6%;
   position: relative;
   margin: 0 auto;
-  /*background: blue;*/
 }
 
 .found h1{
@@ -1039,10 +997,10 @@ display: inline-block;
   padding-left: 0;
   padding-top: 34px;
   padding-bottom: 34px;
-  /*background: yellow;*/
   margin: 0 auto;
   margin-right: 50px;
 }
+
 .found p{
   width: 80px;
   float: left;
@@ -1054,6 +1012,7 @@ display: inline-block;
   margin-right: 40px;
   font-weight: bold;
   }
+
 .found ul{
   list-style: none;
   margin: 0;
@@ -1069,41 +1028,36 @@ display: inline-block;
   padding-bottom: 35px;
   margin: 0 auto;
   margin-right: 34px;
-  /*margin-top: 16px;  /*подгон визуально*/
-  /*display: inline-block;
-  /*text-align: center;*/
 }
+
  .found a{
     text-decoration: none;
     display: block;
     font-weight: bold;
     border-bottom: 1px dashed #81b3d2;
-  /*font-size: 12px;*/
     }
+
     .found .price {
     color: #81b3d2;
     border-bottom:none;
     }
+
     .found .type{
       color: #d0d0d0;
     }
+
     .found .rating {
      color: #d0d0d0;
      }
+
      .found .type:hover{
      color: #81b3d2;
      }
-      .found .rating:hover {
+
+    .found .rating:hover {
       color: #81b3d2;
      }
 
-.breadcrumb .stars{
-  /*width: 241px;
-  float: right;*/
-  /*border: 1px solid black;
-  background: blue;
-  margin-right: 10px;*/
-}
 .breadcrumb .stars a{
   content: "";
       position: absolute;
@@ -1116,16 +1070,18 @@ display: inline-block;
       background-image: url(../img/sprite7.png);
       background-repeat: no-repeat;
       background-position: -4px -4px;
-      /*border: 1px solid black;*/
-}
+  }
+
 .breadcrumb .stars a:hover{
       background-position: -46px -4px;
       }
+
 .breadcrumb .stars a:active{
-  background-position: -88px -4px;
+     background-position: -88px -4px;
 }
+
 .breadcrumb .stars a:last-child{
-  content: "";
+      content: "";
       position: absolute;
       top: px;
       left: 1110px;
@@ -1136,11 +1092,12 @@ display: inline-block;
       background-image: url(../img/sprite7.png);
       background-repeat: no-repeat;
       background-position: -25px -4px;
-      /*border: 1px solid black;*/
-}
+    }
+
 .breadcrumb .stars a:last-child:hover{
       background-position: -67px -4px;
       }
+
 .breadcrumb .stars a:last-child:active{
       background-position: -109px -4px;
       }
@@ -1152,8 +1109,8 @@ display: inline-block;
   position: absolute;
   left: 0;
   top:86px;
-  /*padding-top:23px;*/
-}
+  }
+
 /*-------------------------------------*/
 .housing{
   display: inline-block;
@@ -1164,12 +1121,7 @@ display: inline-block;
   margin: 0 auto;
   position: relative;
 }
-.housing:first-child{
-  /*background: green;*/
-}
-.housing:last-child{
-  /*background: yellow;*/
-}
+
 .housing .image{
 width: 135px;
 min-height: 90px;
@@ -1178,10 +1130,9 @@ vertical-align: top;
 /*float: left;*/
 margin-left: 0;
 margin-top: 31px;
-/*margin-bottom: 31px;*/
 margin-right: 30px;
-/*background: blue;*/
 }
+
 .housing .text{
 display: inline-block;
 vertical-align: top;
@@ -1189,8 +1140,9 @@ width: 258px;
 height: 90px;
 /*float: left;*/
 margin-top:29px;
-margin-right: 514px; /*уменьшал чтобы не выпадало */
+margin-right: 514px;
   }
+
 .housing .stars-rating{
   display: inline-block;
   vertical-align: top;
@@ -1198,10 +1150,9 @@ margin-right: 514px; /*уменьшал чтобы не выпадало */
   min-height: 90px;
   /*float: right;*/
   margin-top: 31px;
-  /*margin-bottom: 31px;
-/*  background: blue;*/
   margin-right: 0;
   }
+
   .main-line2,.main-line3,.main-line4 {
     display:block;
     width: 100%;
@@ -1210,30 +1161,35 @@ margin-right: 514px; /*уменьшал чтобы не выпадало */
     left: 0;
     top:134px;
       }
+
 .stars-rating .rating{
   margin-top: 48px;
 }
 
-.text h2{
-width: 100%;
-display: inline-block;
-text-align: left;
-margin: 0;
-padding: 0;
-cursor: pointer;
-}
+  .text h2{
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  }
+
 .text p{
   width: 100%;
   margin:7px 0;
   padding: 0;
   display: inline-block;
 }
+
 .text .hotel{
 margin-right: 35px;
 }
+
 .text .hotel-ot{
 margin-right: 80px;
 }
+
 .text a{
   text-decoration: none;
   display: inline-block;
@@ -1243,29 +1199,37 @@ margin-right: 80px;
   color:#ffffff;
   font-weight: bold;
 }
+
 .text a:last-child{
   background: #766357;
   margin-left: 8px;
 }
+
 .stars-rating span{
   padding: 6px 13px;
   background:#f2f2f2;
 }
+
 .text h2:hover{
   color:#81b3d2;
 }
+
 .text h2:active{
   color:#cacaca;
 }
+
 .text a:hover{
   background: #669ec0;
 }
+
 .text a:active{
   background: #5496bd;
 }
+
 .text a:last-child:hover{
   background: #604e43;
 }
+
 .text a:last-child:active{
   background: #503e33;
 }
@@ -1277,12 +1241,10 @@ margin-right: 80px;
   color: #000000;
   margin: 0 auto;
   z-index: 50;
-  /*position: absolute;
-  /*top:2750px;*/
   background: rgba(255,255,255, 0.9);
 
 }
-/***********************//*_Java Script_______________________________*/
+/*___________________Java Script_______________________________*/
 .search-form-show {
   display: block;
   animation: lift-up 1s;
