@@ -95,7 +95,7 @@ margin: 0 auto;
 .main-navigation li:nth-child(2) {
   width: 20%;
   text-align: left;
-  margin-right: /*18%*/200px; /*высчетал*/
+  margin-right:200px;
       }
 .main-navigation li:nth-child(3){
   width: 20%;
@@ -149,13 +149,14 @@ margin-top: 0;
 display: block;
 padding: 75px 0;
 }
+
 .main-dekor:before{
   content: "";
   width: 100%;
   height: 57px;
   display: block;
   position: absolute;
-  top:567px;
+  top:565px;
   left: 0px;
   background: url(../img/shape.png) no-repeat center top;
 }
@@ -163,11 +164,12 @@ padding: 75px 0;
 .index-title {
 display: block;
 width: 500px;
-height: 102px;
-padding-top: 60px;
+/*height: 102px;
+padding-top: 0;*/
 padding-bottom: 60px;
 text-align: center;
 margin: 0 auto;
+/*background: blue;*/
 }
 
 .index-title h1{
@@ -366,7 +368,7 @@ font-weight: bold;
   left: 316px;
   background: #ffffff;
   margin: 0 auto;
-  display: none;         /*отключаю модальное окно____________________________*/
+  display: none;                                    /*отключаю модальное окно*/
 }
 .date-item {
 display: block;
@@ -400,7 +402,7 @@ border-style: none;
 .calendar{
 content: "";
     position: absolute;
-    top: 80px;
+    top: 75px;
     left: 492px;
     width: 22px;
     height: 22px;
@@ -418,7 +420,7 @@ content: "";
   }
 .calendar-item{
 position: absolute;
-top: 158px;
+top: 144px;
 left: 494px;
 width: 22px;
 height: 22px;
@@ -466,7 +468,7 @@ background-position: -15px -15px;
 .number .minus {
   display: block;
   position: absolute;
-  top: 235px;
+  top: 222px;
   left: 191px;
   width: 38px;
   height: 38px;
@@ -489,7 +491,7 @@ background-position: -15px -15px;
 .number .plus{
   display: block;
   position: absolute;
-  top: 235px;
+  top: 222px;
   left: 268px;
   width: 38px;
   height: 38px;
@@ -540,7 +542,7 @@ display: inline-block;
 .number-second .minus {
   display: block;
   position: absolute;
-  top: 235px;
+  top: 222px;
   left: 418px;
   width: 38px;
   height: 38px;
@@ -563,7 +565,7 @@ display: inline-block;
 .number-second .plus {
   display: block;
   position: absolute;
-  top: 235px;
+  top: 222px;
   left: 495px;
   width: 38px;
   height: 38px;
@@ -615,7 +617,7 @@ display: inline-block;
   margin: 0 auto;
   z-index: 50;
   position: absolute;
-  top:2750px;
+  top:2790px;
   background: rgba(255,255,255, 0.9);
    }
 
